@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.example || "http://localhost:5000/api",
+    baseURL: import.meta.env.example || "https://attendance-web-09bz.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
